@@ -38,21 +38,20 @@ COMING SOON
 
 <b><details><summary>Service & Port</summary></b> 
  <p align="center"> 
- <img src="https://telegra.ph/file/5ea099c50949711920149.jpg"/> 
 <img src="https://img.shields.io/badge/-Services%20%26%20Port-brightgreen"> 
   
 ```
-- OPENSSH : 3303 , 22
-- WEBSOCKET HTTP : 80 , 2082
-- WEBSOCKET HTTPS : 443 , 2096
+- OPENSSH             : 3303 , 22
+- WEBSOCKET HTTP      : 80 , 2082
+- WEBSOCKET HTTPS     : 443 , 2096
 - XRAY WEBSOCKET HTTP : 80 , 8080
-- XRAY WEBSOCKET HTTPS : 443 , 2096
-- XRAY GRPC SERVICE : 443
-- HAPROXY TCP-XTLS : 443
-- NGINX WEBSERVER : 8000
-- APACHE2 WEBVIEW : 855
-- SSLH MULTIPLEXR : 700 , 111
-- DROPBEAR : 109 , 69 , 143
+- XRAY WEBSOCKET HTTPS: 443 , 2096
+- XRAY GRPC SERVICE   : 443
+- HAPROXY TCP-XTLS    : 443
+- NGINX WEBSERVER     : 8000
+- APACHE2 WEBVIEW     : 855
+- SSLH MULTIPLEXR     : 700 , 111
+- DROPBEAR            : 109 , 69 , 143
 - SQUID PROXY FOR TUNNEL : 3128
 ```
 
@@ -62,14 +61,14 @@ COMING SOON
 - VLESS    : /vlessws
 - TROJAN   : /trojanws
 - SOCKS5   : /socks
-- SSH  : / - /custom
+- SSH      : / - /custom
 - SHADOWSOCKS : /shadow
 ```
 
 # SERVICE-NAME
 ```
-- VMESS GRPC : vmess-grpc
-- VLESS GRPC : vless-grpc
+- VMESS GRPC  : vmess-grpc
+- VLESS GRPC  : vless-grpc
 - TROJAN GRPC : trojan-grpc
 - SOCKS5 GRPC : socks-grpc
 - SHADOWSOCKS GRPC : shadow-grpc
