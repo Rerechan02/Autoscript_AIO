@@ -107,7 +107,7 @@ COMING SOON
 </details>
 
 <b><details><summary>Package Autoscript Aio</summary></b>
-```
+```diff
 {
   "name": "Autoscript-AIO",
   "version": "1.0.1",
