@@ -107,7 +107,7 @@ COMING SOON
 </details>
 
 <b><details><summary>Package Autoscript Aio</summary></b>
-```diff
+ ```diff
 {
   "name": "Autoscript-AIO",
   "version": "1.0.1",
@@ -141,7 +141,7 @@ COMING SOON
   },
   "homepage": "https://github.com/Rerechan02/Autoscript-AIO-Rerechan02-X-PR_Aiman"
 }
-```
+ ```
 </details>
 
 <b><details><summary>Other</summary></b> 
