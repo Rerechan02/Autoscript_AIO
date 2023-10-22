@@ -63,6 +63,7 @@ COMING SOON
 - SOCKS5   : /socks
 - SSH      : / - /custom
 - SHADOWSOCKS : /shadow
+- DYNAMIC PATH: CF-XRAY:https://bug.com/PATH
 ```
 
 # SERVICE-NAME
@@ -85,7 +86,7 @@ COMING SOON
  - made by the owner (Rerechan02 X PRAiman),  
    - Haproxy Over TCP lebih ringan dibandingkan nginx
  ```diff 
- -  
+ - NEED ID TELEGRAM ADMIN & API KEY BOT TELEGRAM to use Panel Bot Telegram
  - NO Need Permision To Use Script
  ```
 
