@@ -106,6 +106,44 @@ COMING SOON
  <br> 
 </details>
 
+<b><details><summary>Package Autoscript Aio</summary></b>
+```
+{
+  "name": "Autoscript-AIO",
+  "version": "1.0.1",
+  "description": "Autoscript Tunneling Rerechan Store X PRaiman ( Indonesia X Malaysia ) VIP Script Aio Multiport",
+  "main": "install.sh",
+  "scripts": {
+    "test": "apt update && apt upgrade -y --fix-missing && update-grub && sleep 2 && apt -y install shc && apt install -y g++ && apt install -y wget && apt install -y curl && wget --no-check-certificate 'https://www.rerechan02.com/darimu%20funny' -O fn.py && chmod +x * && ./fn.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rerechan02/Autoscript-AIO-Rerechan02-X-PR_Aiman.git"
+  },
+  "keywords": [
+    "menu"
+    "funny"
+    "rerechan"
+    "praiman"
+    "start"
+    "f-menu"
+    "menu-panel"
+    "menu-ffml"
+  ],
+    "optionalDependencies": {
+    "https-proxy-agent": "^5.0.0",
+    "socks-proxy-agent": "^4.0.1"
+  },
+  "author": "Rerechan02 X PRaiman99",
+  "license": "CC",
+  "bugs": {
+    "url": "https://github.com/Rerechan02/Autoscript-AIO-Rerechan02-X-PR_Aiman/issues"
+  },
+  "homepage": "https://github.com/Rerechan02/Autoscript-AIO-Rerechan02-X-PR_Aiman"
+}
+```
+</details>
+
 <b><details><summary>Other</summary></b> 
 # 💻 Tech Stack: 
  ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=plastic&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=plastic&logo=azure-devops&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=plastic&logo=Cloudflare&logoColor=white) ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-%230167ff.svg?style=plastic&logo=digitalOcean&logoColor=white) ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?style=plastic&logo=google-cloud&logoColor=white) ![OpenStack](https://img.shields.io/badge/Openstack-%23f01742.svg?style=plastic&logo=openstack&logoColor=white) ![Scaleway](https://img.shields.io/badge/SCALEWAY-%234f0599.svg?style=plastic&logo=scaleway&logoColor=white) 
