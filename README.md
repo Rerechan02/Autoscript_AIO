@@ -26,6 +26,10 @@
 ``` 
 sudo su
 ```
+OR
+```
+sudo -i
+```
 ***TAHAP 1***
 ```
 apt update && apt upgrade -y --fix-missing && update-grub && sleep 2 && apt -y install xxd && apt install -y bzip2 && apt install -y wget && apt install -y curl && ln -fs /usr/share/zoneinfo/Asia/Jakarta /etc/localtime && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && reboot
@@ -47,11 +51,22 @@ COMING SOON
 - XRAY WEBSOCKET HTTP : 80 , 8080
 - XRAY WEBSOCKET HTTPS: 443 , 2096
 - XRAY GRPC SERVICE   : 443
-- HAPROXY TCP-XTLS    : 443
-- NGINX WEBSERVER     : 8000
-- APACHE2 WEBVIEW     : 855
+- HAPROXY TCP-XTLS    : 441 , 442 , 443 , 444 , 445
+- NGINX WEBSERVER     : 8000 [ HTTP ACCESS ]
+- APACHE2 WEBVIEW     : 855 [ HTTPS ACCESS ]
 - SSLH MULTIPLEXR     : 700 , 111
 - DROPBEAR            : 109 , 69 , 143
+- WEBSOCKET GOLANG    : 443 , 80 , 2082
+- OHP                 : 8585 , 8686 , 8787
+- OPENVPN TCP/UDP     : 1194 / 2200
+- DNSTT [ SLOWDNS ]   : 53 , 5300
+- UDP CUSTOM          : 1-65535
+- UDP ZIVPN           : 1-65535
+- UDP HYSTERIA        : 1-65535
+- WIREGUARD           : 7070
+- BADVPN / UDPGW SSH  : 7100 , 7200 , 7300 , 7400 , 7500
+- GO HTTP PROXY       : 8888
+- 
 - SQUID PROXY FOR TUNNEL : 3128
 ```
 
@@ -90,16 +105,36 @@ COMING SOON
  - NO Need Permision To Use Script
  ```
 
+## Feature
+ ```diff
+ - SUPPORT TELEGRAM BOT
+ - CLOUDFRONT CDN [ UNTEST ]
+ - LIMIT IP
+ - LIMIT QUOTA
+ - NODEJS , PHP , GOLANG , PIP / PYTHON
+ - ADDIP [ ONLY RESSELER ]
+ - KERNEL & BBR MOD FOR Xray
+ - CEK TRAFIK XRAY
+ - CHANGE UUID ACOUNT X-RAY
+ - UPDATE KERNEL
+ - CHANGE TIMEZONE
+ - LIMIT SPEED
+ - ADS BLOCKIR
+ - ANTI TORENT
+ - CHANGE DNS SERVER
+ - STREAMING CHECKER
+ - WEBMIN WEB ACCESS VPS
+ - AUTOREBOOT SET VPS
+ - BACKUP & RESTORE [ GIHUB/USERNAME , GOOGLEDRIVE/LINK GDRIVE , TELEGRAM BOT NOTIF]
+ ```
+
+
 ## Credit : 
   
- -   Owner Rerechan02 X PRAiman X VPNSTORE28 ( NADIA )
  -   Original Script by FunnyVPN & Github
- -   Modded By Rerechan02 X VPNSTORE28
- -   Upload By PRAiman
-  
-  
-  
-  
+ -   Modded By Rerechan02 , VPNSTORE28 , @praiman99
+ -   Upload By PRAiman & Rerechan02
+
      <p align="center"><img src="https://img.shields.io/badge/%20COPYRIGHT%20%C2%A9%202023-%20By%20Rerechan02%20『𝐅𝐍』%2C%20Inc-blue"></p> 
  <b> 
  </b> 
@@ -208,8 +243,7 @@ curl -X GET -H 'Host: domain' -H 'Upgrade: websocket' -H 'Connection: Upgrade' -
 
 <b><details><summary>Contact Me :v</summary></b>
 ## don't forget to join
-[![Join WhatsApp Group 1](https://img.shields.io/badge/Join-WhatsApp%20Group1-bl.svg?logo=WhatsApp)](https://chat.whatsapp.com/LlJmbvSQ2DsHTA1EccNGoO)
-[![Join WhatsApp Group 2](https://img.shields.io/badge/Join-WhatsApp%20Group2-bl.svg?logo=WhatsApp)](https://chat.whatsapp.com/JcwmcqMAFlG4MhALblHsig)
+[![Join WhatsApp Group](https://img.shields.io/badge/Join-WhatsApp%20Group1-bl.svg?logo=WhatsApp)](https://chat.whatsapp.com/LlJmbvSQ2DsHTA1EccNGoO)
 [![Join Telegram Chanel](https://img.shields.io/badge/Join-Telegram%20Chanel-bl.svg?logo=Telegram)](https://t.me/fn_project)
 [![Join Telegram Group](https://img.shields.io/badge/Join-Telegram%20Group-bl.svg?logo=Telegram)](https://t.me/Rerechan0022)
 <a href="mailto:widyabakti02@gmail.com">Rerechan02</a>
@@ -221,5 +255,9 @@ curl -X GET -H 'Host: domain' -H 'Upgrade: websocket' -H 'Connection: Upgrade' -
 <a href="https://t.me/fn_project"><img title="Made in Indonesia Malaysia" src="https://img.shields.io/badge/MADE%20IN-INDONESIA & MALAYSIA-SCRIPT?colorA=%23ff0000&colorB=%23ffffff&colorC=%23ff0000&style=for-the-badge"></a> 
  </p>
 
-<p xmlns:cc="http://creativecommons.org/ns#">Karya ini dilisensikan di bawah <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align :teks-bawah;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-dasar;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-dasar;" src="https://mirrors.creativecommons.org/presskit/icons/sa.
-</p>
+## Lisensi
+
+Karya ini dilisensikan di bawah [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/).
+![Lisensi Creative Commons](https://mirrors.creativecommons.org/presskit/icons/cc.svg)
+![Lisensi Creative Commons](https://mirrors.creativecommons.org/presskit/icons/by.svg)
+![Lisensi Creative Commons](https://mirrors.creativecommons.org/presskit/icons/sa.svg)
