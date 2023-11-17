@@ -66,7 +66,6 @@ COMING SOON
 - WIREGUARD           : 7070
 - BADVPN / UDPGW SSH  : 7100 , 7200 , 7300 , 7400 , 7500
 - GO HTTP PROXY       : 8888
-- 
 - SQUID PROXY FOR TUNNEL : 3128
 ```
 
@@ -107,6 +106,7 @@ COMING SOON
 
 ## Feature
  ```diff
+ - SWAP RAM 2GB
  - SUPPORT TELEGRAM BOT
  - CLOUDFRONT CDN [ UNTEST ]
  - LIMIT IP
@@ -129,12 +129,9 @@ COMING SOON
  ```
 
 
-## Credit : 
-  
- -   Original Script by FunnyVPN & Github
- -   Modded By Rerechan02 , VPNSTORE28 , @praiman99
- -   Upload By PRAiman & Rerechan02
-
+### CREDIT
+- BASE CODE [@FunnyVPN](https://t.me/Funy_vpn) & [@GITHUB](https://github.com/topics/autoscript)
+- Moded By [@praiman99](https://github.com/praiman99) & [@Rerechan02](https://wa.me/62858630085249)
      <p align="center"><img src="https://img.shields.io/badge/%20COPYRIGHT%20%C2%A9%202023-%20By%20Rerechan02%20『𝐅𝐍』%2C%20Inc-blue"></p> 
  <b> 
  </b> 
