@@ -239,7 +239,7 @@ curl -X GET -H 'Host: domain' -H 'Upgrade: websocket' -H 'Connection: Upgrade' -
 ```
 </details>
 
-<b><details><summary>Contact Me :v</summary></b>
+<b><details><summary>Contact</summary></b>
 ## don't forget to join
 [![Join WhatsApp Group](https://img.shields.io/badge/Join-WhatsApp%20Group1-bl.svg?logo=WhatsApp)](https://chat.whatsapp.com/LlJmbvSQ2DsHTA1EccNGoO)
 [![Join Telegram Chanel](https://img.shields.io/badge/Join-Telegram%20Chanel-bl.svg?logo=Telegram)](https://t.me/fn_project)
@@ -247,10 +247,11 @@ curl -X GET -H 'Host: domain' -H 'Upgrade: websocket' -H 'Connection: Upgrade' -
 <a href="mailto:widyabakti02@gmail.com">Rerechan02</a>
 </details>
 
-<b><details><summary>Github Ranking</summary></b>
-## Demo Menu & Feature
+ <b><details><summary>Demo</summary></b>
+ <p align="center"> 
+ <img src="https://img.shields.io/badge/-Demo%20%26%20Script-brightgreen"> 
 
-</details>
+ </details>
 
 <b><details><summary>Github Ranking</summary></b>
 ## Github Ranking
