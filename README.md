@@ -11,7 +11,7 @@
   </p> 
  
  <p align="center"> 
- <img height=21 src="https://komarev.com/ghpvc/?username=praiman99"> 
+ <img height=21 src="https://komarev.com/ghpvc/?username=praiman99">
  </p>
 
 - Untuk script nya belum di buat, harap bersabar ya
