@@ -169,9 +169,9 @@ COMING SOON
   "author": "Rerechan02 X PRaiman99",
   "license": "CC",
   "bugs": {
-    "url": "https://github.com/Rerechan02/Autoscript-AIO-Rerechan02-X-PR_Aiman/issues"
+    "url": "https://github.com/Rerechan02/Autoscript_AIO/issues"
   },
-  "homepage": "https://github.com/Rerechan02/Autoscript-AIO-Rerechan02-X-PR_Aiman"
+  "homepage": "https://github.com/Rerechan02/Autoscript_AIO"
 }
  ```
 </details>
