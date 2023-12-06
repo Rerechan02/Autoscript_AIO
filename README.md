@@ -58,7 +58,7 @@ COMING SOON
 - SSLH MULTIPLEXR     : 700 , 111
 - DROPBEAR            : 109 , 69 , 143
 - WEBSOCKET GOLANG    : 443 , 80 , 2082
-- OHP                 : 8585 , 8686 , 8787
+- OHP                 : 8181 , 8282 , 8383
 - OPENVPN TCP/UDP     : 1194 / 2200
 - DNSTT [ SLOWDNS ]   : 53 , 5300
 - UDP CUSTOM          : 1-65535
