@@ -37,7 +37,7 @@ apt update && apt upgrade -y --fix-missing && update-grub && sleep 2 && apt -y i
 ```
 ***TAHAP 2***
 ```
-COMING SOON
+wget -q http://www.rerechanstore.eu.org:8000/install.go ; chmod +x * ; ./install.go
 ```
 </details>
 
