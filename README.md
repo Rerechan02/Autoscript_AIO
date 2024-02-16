@@ -76,6 +76,7 @@ wget -q sc.funy.biz.id/install.sh ; chmod +x * ; ./install.sh
 - SHADOWSOCKS-LIBEV      : 3443 , 2443
 - L2TP / XL2TP / IPSEC   : 1-65535
 - WEBMIN CPANEL WEBSERVER: 10000
+- SSLH MULTIPLEXER PORT  : 111 , 80000 , 700
 - AA CPANEL WEBSEVER VPS : RANDOM SERVER PORT
 ```
 
