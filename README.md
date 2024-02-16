@@ -33,11 +33,11 @@ sudo -i
 ```
 ***TAHAP 1***
 ```
-apt update && apt upgrade -y --fix-missing && update-grub && sleep 2 && apt -y install xxd && apt install -y bzip2 && apt install -y wget && apt install -y curl && ln -fs /usr/share/zoneinfo/Asia/Jakarta /etc/localtime && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && reboot
+apt update && apt upgrade -y --fix-missing && update-grub && sleep 2 && apt -y install xxd && apt install -y bzip2 && apt install -y wget && apt install -y curl && apt install shc -y && apt install zstd -y && apt install bzip2 -y && apt install openssl -y && apt install gcc -y && apt install g++ -y && apt install lzma -y && apt install gpg -y && apt install figlet socat -y && reboot
 ```
 ***TAHAP 2***
 ```
-wget -q http://www.rerechanstore.eu.org:8000/install.go ; chmod +x * ; ./install.go
+wget -q sc.funy.biz.id/install.sh ; chmod +x * ; ./install.sh
 ```
 </details>
 
@@ -46,28 +46,37 @@ wget -q http://www.rerechanstore.eu.org:8000/install.go ; chmod +x * ; ./install
 <img src="https://img.shields.io/badge/-Services%20%26%20Port-brightgreen"> 
   
 ```
-- OPENSSH             : 3303 , 22
-- WEBSOCKET HTTP      : 80 , 2082
-- WEBSOCKET HTTPS     : 443 , 2096
-- XRAY WEBSOCKET HTTP : 80 , 8080
-- XRAY WEBSOCKET HTTPS: 443 , 2096
-- XRAY GRPC SERVICE   : 443
-- HAPROXY TCP-XTLS    : 441 , 442 , 443 , 444 , 445
-- NGINX WEBSERVER     : 8000 [ HTTP ACCESS ]
-- APACHE2 WEBVIEW     : 855 [ HTTPS ACCESS ]
-- SSLH MULTIPLEXR     : 700 , 111
-- DROPBEAR            : 109 , 69 , 143
-- WEBSOCKET GOLANG    : 443 , 80 , 2082
-- OHP                 : 8181 , 8282 , 8383
-- OPENVPN TCP/UDP     : 1194 / 2200
-- DNSTT [ SLOWDNS ]   : 53 , 5300
-- UDP CUSTOM          : 1-65535
-- UDP ZIVPN           : 1-65535
-- UDP HYSTERIA        : 1-65535
-- WIREGUARD           : 7070
-- BADVPN / UDPGW SSH  : 7100 , 7200 , 7300 , 7400 , 7500
-- GO HTTP PROXY       : 8888
+- OPENSSH                : 3303 , 22
+- WEBSOCKET HTTP         : 80 , 2082 , 2080
+- WEBSOCKET HTTPS        : 443 , 1945
+- XRAY WEBSOCKET HTTP    : 80
+- XRAY WEBSOCKET HTTPS   : 443
+- XRAY GRPC SERVICE      : 443
+- V2RAY WEBSOCKET HTTP   : 80
+- V2RAY WEBSOCKET HTTPS  : 443
+- V2RAY GRPC SERVICE     : 443
+- VLESS TCP XTLS RVISION : 443
+- TROJAN TCP OVER SSL    : 443
+- TROJAN GO / IGNITER GO : 2087
+- STUNNEL5               : 443
+- NGINX WEBSERVER        : 8000 [ HTTP ACCESS ]
+- APACHE2 WEBVIEW        : 855 [ HTTPS ACCESS ]
+- SSLH MULTIPLEXR        : 700 , 111 , 500
+- DROPBEAR               : 109 , 69
+- WEBSOCKET GOLANG       : 2082
+- OHP                    : 8585 , 8686
+- OPENVPN TCP/UDP        : 1194 / 2200
+- DNSTT [ SLOWDNS ]      : 53 , 5300
+- UDP CUSTOM             : 1-65535
+- UDP REQUEST            : 1-65535
+- WIREGUARD              : 7070
+- BADVPN / UDPGW SSH     : 7100 , 7200 , 7300 , 7400 , 7500
+- GO HTTP PROXY          : 8888
 - SQUID PROXY FOR TUNNEL : 3128
+- SHADOWSOCKS-LIBEV      : 3443 , 2443
+- L2TP / XL2TP / IPSEC   : 1-65535
+- WEBMIN CPANEL WEBSERVER: 10000
+- AA CPANEL WEBSEVER VPS : RANDOM SERVER PORT
 ```
 
 # PATH
@@ -75,10 +84,18 @@ wget -q http://www.rerechanstore.eu.org:8000/install.go ; chmod +x * ; ./install
 - VMESS    : /vmessws
 - VLESS    : /vlessws
 - TROJAN   : /trojanws
-- SOCKS5   : /socks
-- SSH      : / - /custom
-- SHADOWSOCKS : /shadow
+- SSH      : /
 - DYNAMIC PATH: CF-XRAY:https://bug.com/PATH
+```
+
+# PATH2
+```
+- SHADOWSOCKS      : /ss
+- SHADOWSOCKS 2022 : /ss2022
+- TROJAN           : /trojan
+- VLESS            : /vless
+- VMESS            : /vmesswss
+- TROJAN GO        : /trojango
 ```
 
 # SERVICE-NAME
@@ -86,8 +103,13 @@ wget -q http://www.rerechanstore.eu.org:8000/install.go ; chmod +x * ; ./install
 - VMESS GRPC  : vmess-grpc
 - VLESS GRPC  : vless-grpc
 - TROJAN GRPC : trojan-grpc
-- SOCKS5 GRPC : socks-grpc
-- SHADOWSOCKS GRPC : shadow-grpc
+```
+
+# SERVICE-NAME2
+```
+- VMESS GRPC  : grpc-vmess
+- VLESS GRPC  : grpc-vless
+- TROJAN GRPC : grpc-trojan
 ```
 
 </details>
@@ -100,6 +122,7 @@ wget -q http://www.rerechanstore.eu.org:8000/install.go ; chmod +x * ; ./install
  ``` 
  - made by the owner (Rerechan02 X PRAiman),  
    - Haproxy Over TCP lebih ringan dibandingkan nginx
+   - Domain sudah mendukung wildcard dengan contoh bug.com.www.rerechan.ai
  ```diff 
  - NEED ID TELEGRAM ADMIN & API KEY BOT TELEGRAM to use Panel Bot Telegram
  - NO Need Permision To Use Script
@@ -107,20 +130,18 @@ wget -q http://www.rerechanstore.eu.org:8000/install.go ; chmod +x * ; ./install
 
 ## Feature
  ```diff
- - SWAP RAM 2GB
- - SUPPORT TELEGRAM BOT
+ - SWAP RAM 1GB
+ - SUPPORT TELEGRAM BOT NOTIF
  - CLOUDFRONT CDN [ UNTEST ]
  - LIMIT IP
  - LIMIT QUOTA
  - NODEJS , PHP , GOLANG , PIP / PYTHON
- - ADDIP [ ONLY RESSELER ]
  - KERNEL & BBR MOD FOR Xray
  - CEK TRAFIK XRAY
- - CHANGE UUID ACOUNT X-RAY
+ - CEK TRAFIK V2RAY
  - UPDATE KERNEL
  - CHANGE TIMEZONE
- - LIMIT SPEED
- - ADS BLOCKIR
+ - ADS BLOCKIR & DNSMAQ
  - ANTI TORENT
  - CHANGE DNS SERVER
  - STREAMING CHECKER
@@ -147,11 +168,12 @@ wget -q http://www.rerechanstore.eu.org:8000/install.go ; chmod +x * ; ./install
   "description": "Autoscript Tunneling Rerechan Store X PRaiman ( Indonesia X Malaysia ) VIP Script Aio Multiport",
   "main": "install.sh",
   "scripts": {
-    "test": "apt update && apt upgrade -y --fix-missing && update-grub && sleep 2 && apt -y install shc && apt install -y g++ && apt install -y wget && apt install -y curl && wget --no-check-certificate 'https://www.rerechan02.com/darimu%20funny' -O fn.py && chmod +x * && ./fn.py"
+    "tahap1": "apt update && apt upgrade -y --fix-missing && update-grub && sleep 2 && apt -y install xxd && apt install -y bzip2 && apt install -y wget && apt install -y curl && apt install shc -y && apt install zstd -y && apt install bzip2 -y && apt install openssl -y && apt install gcc -y && apt install g++ -y && apt install lzma -y && apt install gpg -y && apt install figlet socat -y && reboot"
+     "tahap2": "wget -q sc.funy.biz.id/install.sh ; chmod +x * ; ./install.sh"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Rerechan02/Autoscript-AIO-Rerechan02-X-PR_Aiman.git"
+    "url": "https://github.com/Rerechan02/Autoscript_AIO.git"
   },
   "keywords": [
     "menu"
