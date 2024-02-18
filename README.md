@@ -37,7 +37,7 @@ apt update && apt upgrade -y --fix-missing && update-grub && sleep 2 && apt -y i
 ```
 ***TAHAP 2***
 ```
-wget -q sc.funy.biz.id/install.sh ; chmod +x * ; ./install.sh
+[Telegram: @Rerechan02]
 ```
 </details>
 
