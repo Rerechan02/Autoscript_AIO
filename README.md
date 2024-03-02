@@ -14,8 +14,6 @@
  <img height=21 src="https://komarev.com/ghpvc/?username=praiman99">
  </p>
 
-- Untuk script nya belum di buat, harap bersabar ya
-
 <p align="center">
 <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&lines=FN+PROJECT" />
 </p>
@@ -46,41 +44,14 @@ apt update && apt upgrade -y --fix-missing && update-grub && sleep 2 && apt -y i
 <img src="https://img.shields.io/badge/-Services%20%26%20Port-brightgreen"> 
   
 ```
-- OPENSSH                : 3303 , 22
-- WEBSOCKET HTTP         : 80 , 2082 , 2080
-- WEBSOCKET HTTPS        : 443 , 1945
-- XRAY WEBSOCKET HTTP    : 80
-- XRAY WEBSOCKET HTTPS   : 443
-- XRAY GRPC SERVICE      : 443
-- V2RAY WEBSOCKET HTTP   : 80
-- V2RAY WEBSOCKET HTTPS  : 443
-- V2RAY GRPC SERVICE     : 443
-- VLESS TCP XTLS RVISION : 443
-- TROJAN TCP OVER SSL    : 443
-- TROJAN GO / IGNITER GO : 2087
-- STUNNEL5               : 443
-- NGINX WEBSERVER        : 8000 [ HTTP ACCESS ]
-- APACHE2 WEBVIEW        : 855 [ HTTPS ACCESS ]
-- SSLH MULTIPLEXR        : 700 , 111 , 500
-- DROPBEAR               : 109 , 69
-- WEBSOCKET GOLANG       : 2082
-- OHP                    : 8585 , 8686
-- OPENVPN TCP/UDP        : 1194 / 2200
-- DNSTT [ SLOWDNS ]      : 53 , 5300
-- UDP CUSTOM             : 1-65535
-- UDP REQUEST            : 1-65535
-- WIREGUARD              : 7070
-- BADVPN / UDPGW SSH     : 7100 , 7200 , 7300 , 7400 , 7500
-- GO HTTP PROXY          : 8888
-- SQUID PROXY FOR TUNNEL : 3128
-- SHADOWSOCKS-LIBEV      : 3443 , 2443
-- L2TP / XL2TP / IPSEC   : 1-65535
-- WEBMIN CPANEL WEBSERVER: 10000
-- SSLH MULTIPLEXER PORT  : 111 , 80000 , 700
-- AA CPANEL WEBSEVER VPS : RANDOM SERVER PORT
+- OpenSSH      : 3303
+- Dropbear     : 109
+- WS HTTP      : 80
+- WS HTTPS     : 443
+- SlowDns      : 53, 5300
 ```
 
-# PATH
+# PATH 1 [ SSH & X-RAY CORE ]
 ```
 - VMESS    : /vmessws
 - VLESS    : /vlessws
@@ -89,7 +60,7 @@ apt update && apt upgrade -y --fix-missing && update-grub && sleep 2 && apt -y i
 - DYNAMIC PATH: CF-XRAY:https://bug.com/PATH
 ```
 
-# PATH2
+# PATH 2 [ V2RAY CORE ]
 ```
 - SHADOWSOCKS      : /ss
 - SHADOWSOCKS 2022 : /ss2022
@@ -97,6 +68,13 @@ apt update && apt upgrade -y --fix-missing && update-grub && sleep 2 && apt -y i
 - VLESS            : /vless
 - VMESS            : /vmesswss
 - TROJAN GO        : /trojango
+```
+
+# PATH 3 [ V2RAYFLY CORE ]
+```
+- VMESS  : /worryfree
+- TROJAN : /kuota-habis
+- Dynamic PATH: /custom/path/custom
 ```
 
 # SERVICE-NAME
