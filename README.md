@@ -44,11 +44,26 @@ apt update && apt upgrade -y --fix-missing && update-grub && sleep 2 && apt -y i
 <img src="https://img.shields.io/badge/-Services%20%26%20Port-brightgreen"> 
   
 ```
-- OpenSSH      : 3303
-- Dropbear     : 109
-- WS HTTP      : 80
-- WS HTTPS     : 443
-- SlowDns      : 53, 5300
+Nginx        : 8000, 855
+L2TP         : 1071
+Udpgw        : 7200, 7300
+OHP DB       : 8686
+Slwodns      : 53, 5300
+OHP SSH      : 8585
+OpenSSH      : 3303
+Dropbear     : 10
+Stunnel5     : 443
+Wireguard    : 7070
+UdpCustom    : 1-65535
+Noobzvpn's   : 8080, 9443
+OpenvpnTCP   : 1194
+OpenvpnUDP   : 220
+HTTP Proxy   : 3128, 8888
+Socks5 Proxy : 1080
+Shadowsocks-Libev  : 3443, 2443
+All Websocket HTTP : 80
+All Websocket HTTPS: 443
+[ Websocket: SSH, XRAY CORE, V2RAY CORE, V2RAYFLY CORE ]
 ```
 
 # PATH 1 [ SSH & X-RAY CORE ]
