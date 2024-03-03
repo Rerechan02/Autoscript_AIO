@@ -51,7 +51,7 @@ OHP DB       : 8686
 Slwodns      : 53, 5300
 OHP SSH      : 8585
 OpenSSH      : 3303
-Dropbear     : 10
+Dropbear     : 109
 Stunnel5     : 443
 Trojan-Go    : 2087
 Wireguard    : 7070
@@ -63,7 +63,6 @@ Vless Xtls   : 443
 OpenvpnUDP   : 220
 HTTP Proxy   : 3128, 8888
 Socks5 Proxy : 1080
-Trojan-Go
 Shadowsocks-Libev  : 3443, 2443
 All Websocket HTTP : 80
 All Websocket HTTPS: 443
